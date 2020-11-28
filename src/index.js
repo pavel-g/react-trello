@@ -13,6 +13,8 @@ import widgets from './widgets'
 
 import createTranslate from './helpers/createTranslate'
 
+import stylesBase from './styles/Base'
+
 export {
   Draggable,
   Container,
@@ -20,7 +22,8 @@ export {
   Lane,
   createTranslate,
   locales,
-  widgets
+  widgets,
+  stylesBase
 }
 
 export { DefaultComponents as components }
